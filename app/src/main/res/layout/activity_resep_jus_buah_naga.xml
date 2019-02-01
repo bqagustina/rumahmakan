@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_jus_buah_naga">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Resep Membuat Jus Buah Naga : \n
+Bahan: \n
+	Susu kental  secukupnya \n
+	Es batu diserut \n
+	Air putih secukupnya \n
+	buah naga \n
+	1 sdm air gula pasir \n
+cara membuat jus buah naga: \n
+	langkah pertama yaitu kupas kulit buah terlebih dahulu lalu ambil dagingnya dan potong dadu. \n
+	blender buah yang sudah di potong dan masukan susu kental bersamaan denagan air, larutan gula sampai halus dan lembut. \n
+	dan langkah selanjutnya yaitu tuangkan jus kedalam gelas dan tambahkan serutan es dibagian atasnya. Lalu jus buah sudah siap dihidangkan. \n
+
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

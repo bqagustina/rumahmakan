@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_sop_buah">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Resep Sop Buah \n
+Bahan: \n
+•	Alpukat \n
+•	Semangka \n
+•	Mangga \n
+•	Anggur \n
+•	Strawberry \n
+•	Melon \n
+•	Pepaya \n
+•	Timun suri \n
+•	Nanas \n
+•	Apel \n
+•	Kelapa muda (dikeruk daging kelapanya) \n
+•	Susu kental manis putih (SKM Putih) \n
+•	Sirup cocopandan / vanila / sirup gula \n
+•	Es batu \n
+Cara Membuat Sop Buah: \n
+•	Potong kecil-kecil buah yang sudah disiapkan lalu tempatkan dalam satu wadah besar kemudian sisihkan. \n
+•	Campurkan susu kental manis, sirup dan es batu dalam satu wadah. \n
+•	Aduk-aduk agar tercampur rata dan es lebih cepat mencair. \n
+•	Jangan lupa cek rasa. Untuk sedikit dan banyaknya bisa disesuaikan dengan banyaknya buah yang sudah dipotong-potong tadi. \n
+•	Kalau ingin lebih cepat santap, bisa ditambahkan air dingin / biasa. \n
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

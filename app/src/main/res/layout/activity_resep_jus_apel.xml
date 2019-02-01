@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_jus_apel">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Resep Membuat Jus Apel \n
+ Bahan: \n
+	Apel sebanyak 1 buah (atau lebih sesuai dengan kebutuhan) \n
+	Gula sebanyak 1 sendok (bisa dihilangkan jika anda sedang dalam diet) \n
+	Air secukupnya \n
+	Es batu secukupnya \n
+Cara Membuat Jus Apel: \n
+1.	Cuci buah apel hingga bersih kemudian potong menjadi beberapa bagian. Hal ini dilakukan untuk memudahkan blender menghaluskan apel. \n
+2.	Setelah selesai di potong-potong, masukkan potongan apel ke dalam mesin blender. Setelah itu tambahkan 1 sendok gula untuk menambah rasa manis dan tuangkan sedikit air putih. \n
+3.	Blender apel, gula, dan air menjadi satu hingga tercampur dengan baik. Setelah agak sedikit halus, masukkan es ke dalam blender. Kemudian blender lagi hingga semuanya merata. \n
+4.	Siapkan gelas, kemudian tuangkan jus apel ke dalam gelas. \n
+5.	Jus apel sudah siap untuk dinikmati. \n
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

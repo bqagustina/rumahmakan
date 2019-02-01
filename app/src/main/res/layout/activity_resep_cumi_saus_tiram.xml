@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_cumi_saus_tiram">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Bahan-bahan cumi saus tiram : \n
+1.	300 gram Cumi-cumi \n
+2.	2 siung Bawang Putih \n
+3.	1 ruas Jahe \n
+4.	2 buah Cabai (Cabe) Merah \n
+5.	1 sendok makan Saus Tiram \n
+6.	1 sendok makan Kecap Manis \n
+7.	1 sendok makan Saus Tomat \n
+8.	secukupnya Lada (Merica) \n
+9.	secukupnya Garam \n
+10.	secukupnya Gula Pasir \n
+11.	150 ml Air \n
+Cara Membuat Resep Masakan Cumi Saos Tiram : \n
+1.Langkah pertama yang harus dilakukan adalah menghilangkan bau amis yang menempel di daging cuminya. Ambil air bersih secukupnya lalu beri perasan air jeruk nipisnya. \n
+2.Rendam 300 gr daging cumi diatas kurang lebih selama 15-20 menit supaya air jeruk meresap dan bau amis yang mungkin timbul hilang. \n
+3.Siapkan penggorengan dengan api sedang dan beri margarin yang sudah disiapkan sebelumnya. \n
+4.Masukkan bawang putih, jahe dan bawang bombay yang sudah diiris kecil kecil lalu masak dan aduk aduk sampai tercium bau harum khas tumisan. \n
+5.Masukkan cabai merah apabila menggunakan lalu aduk aduk sebentar. \n
+6.Tuang saus tomat, saus sambal dan saus tiramnya lalu aduk aduk sebentar supaya semua bahan tercampur rata. \n
+7.Tuang air kurang lebih sebanyak 100 ml-125 ml lalu aduk aduk sebentar supaya tercampur dengan semua bumbunya. \n
+8.Masukkan daging cumi yang sudah direndam sebelumnya lalu masak dan aduk aduk sampai air sedikit berkurang dan bumbu sudah meresap. \n
+9.Masukkan garam dapur beryodium, merica halus dan daun bawangnya lalu aduk aduk lagi sampai semua bahan tercampur rata. \n
+10.Masukkan tepung maizena yang sebelumnya sudah dicampur dengan sedikit air lalu aduk aduk lagi sampai mengental dan daging cuminya matang. \n
+11.Setelah daging cumi cukup empuk dan matang, angkat dan tuang cumi saus tiramnya di atas piring sajian. \n
+
+
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

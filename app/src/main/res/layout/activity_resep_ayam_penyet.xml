@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_ayam_penyet">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Bahan Ayam penyet ; \n
+	Ayam segar berukuran sedang. Potong ayam menjadi 4-6 bagian, kemudian cuci bersih dan tiriskan. \n
+	Untuk ayamnya sendiri, Anda bisa menggunakan ayam kampung atau ayam sayur (sesuai selera Anda) \n
+	1 lembar daun salam \n
+	2 cm jahe \n
+	3 cm lengkuas (di memarkan) \n
+	Air secukupnya \n
+	Minyak goreng secukupnya \n
+Bumbu halus : \n
+	4 siung bawang putih \n
+	5 siung bawang merah \n
+	9buah cabai rawit \n
+	5 buah cabai merah \n
+	1 cm kunyit \n
+	Garam dan gula pasir secukupnya \n
+Bahan sambal penyet: \n
+◾Cabe merah keriting 7 buah \n
+◾Cabe rawit merah 7 buah \n
+◾Tomat merah ½ buah \n
+◾Terasi ½ sendok teh, dibakar \n
+◾Daun jeruk purut 2 lembar, batang daun dibuang \n
+◾Irisan gula merah ½ sendok teh \n
+◾Daun kemangi 2 tangkai \n
+◾Garam secukupnya \n
+
+Cara Membuat ayam penyet : \n
+1.Tuang air pada bumbu yang dihaluskan, jahe, lengkuas dan daun salam, lalu campurkan dengan daging ayam. \n
+2.Masak daging ayamm di atas api kecil sambil ditutup (ungkeb). Tunggu sampai ayam matang dan bumbu meresap. Lalu angkat. \n
+3.Selanjutnya, goreng daging ayam sampai berwarna kekuningan. Angkat dan sisihkan. \n
+4.Untuk sambal: haluskan semua bahan sambal, tambahkan daun kemangi lalu tumbuk atau ulek kasar. \n
+5.Terakhir, tuang ayam goreng dalam sambal penyet, tekan da ulek sampai samabal menempel dengan daging. \n
+
+
+
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

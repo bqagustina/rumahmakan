@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_es_teler">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Resep Es teller \n
+Bahan: \n
+•	3 buah avokad, dikeruk \n
+•	15 buah mata nangka, dipotong kotak \n
+•	3 buah kelapa muda, dikerok lebar \n
+•	50 gram sagu mutiara, direbus dengan pewarna merah \n
+•	150 ml susu kental manis putih \n
+•	750 gram es serut \n
+Bahan Sirup Gula: \n
+•	300 ml gula pasir \n
+•	300 ml air \n
+•	1 lembar daun pandan \n
+ Bahan Saus Santan: \n
+•	400 ml santan, dari 1/2 butir kelapa \n
+•	1/4 sendok teh garam \n
+Cara Membuat Es Teler : \n
+1.	Saus santan, masak santan dan garam sambil diaduk hingga mendidih. Dinginkan \n
+2.	Sirup, rebus gula pasir, air, dan daun pandan. Masak sampai gula larut. Dinginkan. \n
+3.	Tata dalam gelas, avokad, nangka, kelapa muda, dan sagu mutiara.  \n
+4.	Tambahkan  santan, air gula, es serut dan susu kental manis. Sajikan. \n
+5.	Es buah segar siap ademkan tenggorokan saat buka puasa tiba. \n
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home"
+    android:padding="50dp"
+    tools:showIn="@layout/activity_home">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <LinearLayout
+         android:layout_centerInParent="true"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+         <Button
+             android:id="@+id/makanan"
+             android:text="Lihat Menu Makanan"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+         <Button
+             android:id="@+id/minuman"
+             android:text="Lihat Menu Minuman"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+         <Button
+             android:id="@+id/tentang"
+             android:text="Tentang"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+ </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

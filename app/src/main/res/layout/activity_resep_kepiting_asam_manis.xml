@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_kepiting_asam_manis">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Bahan-bahan kepiting asam manis: \n
+•	3 ekor kepiting sedang, direbus matang, ambil kaldu \n
+•	25 ml kaldu kepiting, bersihkan, hancurkan cangkangnya \n
+•	1 sendok makan saus sambal \n
+•	5 sendok makan saus tomat \n
+•	4 sendok makan jeruk lemon \n
+•	1 butir telur ayam, dikocok lepas \n
+•	3 sendok makan gula pasir \n
+•	secukupnya Garam \n
+•	secukupnya merica \n
+•	1 buah bawang bombay \n
+•	2 cabai merah besar \n
+•	2 siung bawang putih \n
+•	1 buku jari jahe \n
+
+Cara membuat Kepiting Asam Manis : \n
+
+1.	Langkah awalnya tumis bumbu halus sampai wangi, masukkan saus sambal, saus tomat, kaldu, masak sampai mendidih. \n
+2.	Lalu masukkan garam, gula, merica, perasan jeruk, aduk-aduk. sobat rasakan apa yg kurang, tambahkan. \n
+3.	Kemudian sambil di aduk-aduk cepat, masukkan kocokan telur ayam, sambil terus di aduk sampai saus mengental juga telur matang. \n
+4.	selanjutnya masukkan kepiting. Aduk sampai semua kepiting terkena saus, masak dengan api kecil saja, 3-5 menit supaya bumbu meresap. angkat, beres nih memasak Kepiting rasa Asam Manis nya. \n
+
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_pecel_lele">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Resep Pecel Lele:\n
+- 1 ikan lele ukuran sedang \n
+- 3 siung bawang putih \n
+- 2 sdm garam \n
+- 50 ml air \n
+- 150 ml minyak goreng \n
+- 20 buah cabai rawit merah \n
+- 5 buah cabai merah besar \n
+- 1 buah tomat segar \n
+- ½ sdt garam \n
+- ¼ sdt gula \n
+- 2 siung bawang putih \n
+- 2 siung bawang merah \n
+- Minyak secukupnya \n
+
+Cara membuat: \n
+1.Bersihkan lele, aduk bersama bumbu perendam, diamkan selama 15 menit.\n
+2.Goreng lele dalam miyak banyak dengan api sedang hingga matang dan kering. Angkat, tiriskan. \n
+3.Sambal: uleg bahan sambal yang sudah digoreng, beri perasan air jeruk limau dan garam. Sajikan bersama lele goreng dan lalapan pelengkap. \n
+
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

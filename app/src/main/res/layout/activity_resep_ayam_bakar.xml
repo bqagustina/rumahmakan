@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_ayam_bakar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Bahan Ayam Bakar: \n
+•	1 ekor ayam bagi 4 (aku pakai ayam pejantan)\n
+•	4 lembar daun salam \n
+•	2 batang serai, ambil bagian putihnya, memarkan \n
+•	20 gr asam jawa, larutkan dan remas-remas dalam 3sdm air panas, ambil airnya \n
+•	500 ml santan \n
+•	10 butir bawang merah \n
+•	5 siung bawang putih \n
+•	1 sdm ketumbar \n
+•	5 butir kemiri \n
+•	1/2 sdt merica bubuk \n
+•	1 ruas kunyit \n
+•	1 ruas lengkuas, keprek \n
+•	50 gr gula merah (gula jawa), sisir halus \n
+•	1 sdt garam \n
+•	1 sdm gula pasir \n
+•	1 sdm kecap manis Bango \n
+
+Cara Membuat Ayam Bakar Bumbu Rujak : \n
+1.Potong-potong daging ayam menurut selera serta cuci bersih, lumuri dengan perasan air 1 buah jeruk nipis selama 10 menit atau bisa juga ditambahkan sedikit garam. Goreng dalam minyak panas yang banyak di atas api sedang hingga matang, angkat dan tiriskan. \n
+2.Panaskan sedikit minyak lalu tumis bumbu halus, serai, daun salam, lengkuas dan aduk-aduk sampai wangi. Masukkan air, garam, kaldu bubuk dan gula merah lalu aduk rata. \n
+3.Tuang santan, masak sambil diaduk-aduk untuk menjaga supaya santan tidak pecah kemudian tuang air asam jawa sambil diaduk-aduk rata. Masukkan potongan ayam goreng, tutup wajan dan masak sambil sesekali diaduk hingga matang dan kuah mengental serta santan mengeluarkan minyak. \n
+4.Bakar ayam beserta baluran bumbunya sehingga bumbu menyerap dan aromanya semakin harum, sajikan ayam bakar rujak dengan dilumuri sisa bumbu. \n
+
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

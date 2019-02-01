@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_jus_alpukat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Resep Jus Alpukat \n
+Bahan-bahan: \n
+	Alpukat dengan ukuran sedang \n
+	Air matang \n
+	Es batu serut \n
+	Susu kental manis \n
+	Gula pasir secukupnya \n
+Cara Membuat Jus Alpukat: \n
+1.	Langkah pertama dalam cara membuat jus alpukat adalah dengan menyiapkan air gula terlebih dahulu. Caranya mudah, yaitu dengan memasukkan gula pasir ke dalam air mendidih. Kemudian aduk sampai gula larut. \n
+2.	Belah alpukat kemudian buang bijinya. Keruk daging alpukat sampai habis. \n
+3.	Siapkan blender, kemudian masukkan daging buah alpukat ke dalam blender. Jangan lupa untuk menambahkan air gula dan es serut. Setelah itu blender sampai halus. \n
+4.	Siapkan gelas saji untuk jus alpukat. Sebelumnya, beri tambahan susu kental manis terlebih dahulu. Kemudian tuangkan jus alpukat ke dalam gelas. \n
+5.	Jus alpukat sudah siap untuk dihidangkan. \n
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_udang_balado">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Bahan membuat  udang saus tiram : \n
+	•  -500 Gram udang, belah punggung, cuci bersih, beri sedikit garam, air jeruk lemon/nipis dan sedikit bawang putih yang dihaluskan, cincang halus, diamkan 10 menit, lalu goreng \n
+	•  -Pete \n
+	•  -4 Buah Kacang panjang, potong-potong \n
+	•  -Air jeruk nipis \n
+	•  -Minyak goreng \n
+	•  -Kaldu bubuk \n
+	•  - Gula \n
+	•  -Pete
+	•  Bumbu halus: \n
+	•  -8 Siung Bwg merah \n
+    •  -2 Siung bwg putih \n
+    •  -1 Buah tomat \n
+    •  -20 Buah cabe merah keriting \n
+    •  -Garam \n
+
+    Cara Membuat Resep Masakan udang balado : \n
+1Lumuri udang dengan air jeruk nipis dan garam. Diamkan selama 10 menit lalu cuci bersih.\n
+2Goreng pete sebentar, jangan terlalu matang. Sisihkan. \n
+3Tumis bumbu halus, sereh, lengkuas dan daun jeruk sampai harum, masukan udang dan tambahkan sedikit air.\n
+4Setelah udang matang, masukan pete, garam dan gula aduk rata kembali. Sajikan. \n
+
+
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

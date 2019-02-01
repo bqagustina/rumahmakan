@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_es_campur">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Resep Membuat Es Campur \n
+BAHAN-BAHAN : \n
+•	600 ml santan dari satu butir kelapa \n
+•	1 sendok teh garam \n
+•	 2 lembar daun pandan \n
+•	 100 gram sagu merah delima \n
+•	 100 gram nata de coco ( sari kelapa ) \n
+•	 100 gram manisan rumput laut warna hijau \n
+•	 150 gram manisan kolang-kaling warna merah, iris \n
+•	 Es serut secukupnya \n
+•	 Sirup merah secukupnya \n
+
+
+CARA MEMBUAT RESEP MINUMAN ES CAMPUR: \n
+
+1.	Masak santan, garam, dan daun pandan dalam panci diatas api sedang. Aduk-aduk agar tidak pecah, masak hingga mendidih, angkat. \n
+2.	Siapkan mangkuk saji, masukan biji merah delima, nata de coco ( sari kelapa ), manisan rumput laut dan kolang-kaling. kemudian tuangkan santan, beri es serut dan kucurkan sirup merah diatasnya dan sajikan. \n
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

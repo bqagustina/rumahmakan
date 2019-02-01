@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_ikan_kuah_kuning">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="BAHAN IKAN KUAH KUNING :\n
+•	500 gr ikan mujair \n
+•	Daun kemangi Secukupnya \n
+•	1 buah jeruk nipis, peras airnya \n
+•	Cabai rawit hijau buang tangkainya \n
+•	2 lembar daun salam \n
+•	1 batang serai \n
+•	700 ml air \n
+•	2 sdm minyak goreng untuk menumis \n
+•	Gula secukupnya \n
+•	Garam secukupnya \n
+•	Bumbu halus : \n
+•	3 siung bawang putih \n
+•	6 buah bawang merah \n
+•	3 buah kemiri yang telah disangrai \n
+•	2 cm jahe \n
+•	2cm kunyit \n
+•	Air \n
+
+CARA MEMBUAT IKAN KUAH KUNING :
+1.Ikan yang sudah dibersihkan di goreng dalam minyak panas setengah kering, tiriskan. \n
+2.Panaskan minyak, tumis bumbu halus hingga beraroma. Masukkan tomat lalu beri air, aduk rata dan biarkan hingga mendidih. \n
+3.Tambahkan garam, royco, gula, aduk rata. Masukkan ikan, balik sesekali dan masak hingga kuah meyerap dan matang. Angkat dan sajikan. \n
+
+
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

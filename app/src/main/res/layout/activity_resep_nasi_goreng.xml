@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resep_nasi_goreng">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F0F0"
+                    android:padding="5dp"
+                    android:text="Cara membuat nasi goreng : \n
+Bahan membuat nasi goreng : \n
+1.	Nasi 600 gr \n
+2.	Daging ayam 125 g. Cincang halus \n
+3.	Telur 1 butir. Kocok \n
+4.	Bawang merah 5 siung \n
+5.	bawang putih 3 siung \n
+6.	Cabai merah 3 buah \n
+7.	Daun bawang 1 batang. Iris halus \n
+8.	Kecap manis 2 sdm \n
+9.	Garam 1 sdt \n
+10.	Merica sdt \n
+11.	Minyak \n
+
+Cara membuat : \n
+1.Masukkan bawang merah, bawang putih, cabai rawit, cabai merah, ebi, dan merica ke dalam cobek lalu haluskan hingga benar-benar halus. \n
+2.Tumis bumbu yang telah dihaluskan pada wajan menggunakan minyak atau mentega hingga tercium bau harum. \n
+3.Masukkan telur yang telah dikocok pada wajan yang berisi bumbu yang telah ditumis. Sisihkan bumbu agar tidak tercampur dengan goreng yang digoreng pada wajan yang sama. \n
+4.Tambahkan ayam cincang ke dalamnya. Tumis terus hingga rata. \n
+5.Masukkan nasi ke dalam dan campur hingga bumbu bercampur sempurna dengan nasi. \n
+6.Tambahkan gula, garam, kecap lalu aduk hingga rata. \n
+7.Sajikan nasi goreng yang telah matang pada piring saji. \n
+8.Anda bisa menambahkan selada, mentimun, dan kerupuk sebagai pelengkap. \n
+
+
+"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
